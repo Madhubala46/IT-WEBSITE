@@ -135,8 +135,8 @@ li.active a{border-color: var(--b);}
 /* portfolio-page */
 
 .portfolio-filter .btn {
-    margin: 3.4rem 0;
-    padding: 8px 20px;
+    margin: 0.4rem 0;
+    padding: 10px 20px;
     background: #0a2540;
     color: #fff;
     font-weight: 700;
@@ -190,6 +190,20 @@ li.active a{border-color: var(--b);}
      
 }
 
+.portfolio-filter{
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+
+@media (max-width:350px){
+    .portfolio-filter .btn{
+        font-size: 12px;
+        /* padding: 6px 10px; */
+    }
+}
 
 @media screen and (max-width:980px){
      .col-t-1{ grid-column: span 1; }
